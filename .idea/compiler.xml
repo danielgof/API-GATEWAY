@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="routes" />
+        <module name="test" />
+        <module name="purchases" />
+        <module name="auth" />
+        <module name="api-gateway" />
+        <module name="eureka-server" />
+        <module name="gatormicroservices" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-gateway" target="17" />
+      <module name="auth-server" target="17" />
+      <module name="demo" target="17" />
+      <module name="eureka-client" target="17" />
+      <module name="eureka-client2" target="17" />
+      <module name="gateway" target="17" />
+      <module name="JWT" target="17" />
+      <module name="routes-server" target="17" />
+      <module name="test" target="17" />
+      <module name="test-gateway" target="17" />
+      <module name="test-server" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JWT" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="auth" options="-parameters" />
+      <module name="auth-gateway" options="-parameters" />
+      <module name="auth-server" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-client2" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="purchases" options="-parameters" />
+      <module name="routes" options="-parameters" />
+      <module name="routes-server" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="test-gateway" options="-parameters" />
+      <module name="test-server" options="-parameters" />
+    </option>
+  </component>
+</project>
